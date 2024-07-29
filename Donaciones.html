@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Donación</title>
+</head>
+<style>
+    /*Estilos generales 
+      body{ 
+          font-family:SCRIPTIFY, sans-serif;
+          line-height:1.6;
+          background-color:#f9f9f9;
+          color:#333;
+          margin:0;
+          padding:0;
+}
+/*Estilo de encabezado*/
+      #header{
+          background-color:#7AE0FF;
+          color:#fff;
+          padding:20px;
+}
+#header h1{ 
+margin:0;
+  font-size:2em;
+}
+/*Estilos de navegación*/
+#navigation{
+ background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+        }
+ #navigation ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navigation li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+#navigation li:last-child {
+          margin-right: 0;
+        }
+
+        #navigation a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #navigation a:hover {
+            text-decoration: underline;
+        }
+ /* Estilos de contenido */
+        #content {
+            padding: 20px;
+        }
+
+        /* Estilos de pie de página */
+        #footer {
+            background-color:#7AE0FF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilos de enlaces */
+        a {
+            color: #007bff;
+          text-decoration: none;
+        }
+  a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+       <center> <h1> Publicaciones</h1></center>
+       
+
+    </header>
+<nav id="navigation">
+<div class="container-navbar">
+   <nav class="navbar container">
+<i class="fa-solid fa-bars"></i>
+<ul class="menu">
+
+        <ul>
+
+   <li><a href="Index%20ONG.HTML">Inicio</a></li>
+    <li><a href="Sobre.html">Conócenos</a></li>
+      <li><a href="Donantes.html">Donantes</a></li>
+        <li><a href="Publicaciones.html">Publicaciones</a></li>
+         <li><a href="Eventos.html">Eventos</a></li>
+          <li><a href="Donaciones.html">Ayuda</a></li>
+             <li><a href="Contactos.html">Contactanos</a></li>
+
+
+
+</ul>
+ </nav>
+
+<center>
+ <form class="search-form">
+<input type="search"placeholder="Buscar..."/>
+<button class="btn-serch">
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</button>
+</center>
+<body>
+    <h2>¡Ayuda a quienes lo necesitan!</h2>
+    <p>Por favor, completa el siguiente formulario para realizar tu donación:</p>
+    <form action="mailto:tucorreo@example.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="cantidad">Cantidad a donar (USD):</label><br>
+        <input type="number" id="cantidad" name="cantidad" min="1" required><br>
+        <label for="mensaje">Mensaje (opcional):</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar Donación">
+    </form>
+<script>
+       
+
+        document.getElementById('formular
+
+        document.getElementById('formulario').addEventListener('
+
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            // Muestra el mensaje de confirmación
+            document.getElementById('mensajeConfirmaci
+
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            // Muestra el mensaje de confirmación
+            document.getElementById('mensajeCo
+
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            // Muestra el mensaje de confirmación
+            document.getElementById('
+
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            // Muestra el mensaje de confirmación
+            document.getElementById('mensajeConfirmacion').style.display = 'blo
+
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            // Muestra el mensaje de confirmación
+            document.getElementById('Tu donación a sido enviada').style.display = 'block';
+            // Deshabilita el envío del formulario
+            event.preventDefault();
+        });
+    </script>
+
+</bo
+<script src="https://kit.fontawesome.com/1b196680bd.js" crossorigin="anonymous"></script>
+
+<footer id="footer">
+        <p>&copy; ONG 2024 Una esperanza más de vida</p>
+    </footer>
+</body>
+</html>
